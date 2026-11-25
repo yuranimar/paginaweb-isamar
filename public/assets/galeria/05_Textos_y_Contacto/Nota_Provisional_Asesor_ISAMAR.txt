@@ -1,0 +1,17 @@
+NOTA PARA EL ASESOR / DESARROLLADOR (BORRADOR PROVISIONAL - ISAMAR)
+=======================================================================
+
+Este paquete reúne las variaciones de estilos de bolsos y accesorios para mostrar la idea general de catálogo y el selector de color antes de tener las descripciones, medidas y materiales definitivos de cada pieza.
+
+Estilos incluidos en esta carpeta:
+1. Bolso Tejido Elegancia (asa lateral trenzada, borde reforzado, estilo de mano).
+2. Bolsito Manos Libres (formato compacto con tira tipo bandolera/cruzado).
+3. Bolso Grande Tote (versión más amplia y espaciosa).
+4. Bolsito Asa Trenzada Compacto (variación más pequeña del estilo de asa trenzada).
+5. Bolso Asa Trenzada Estructurado (variación con base más firme y borde marcado).
+6. Cosmetiquera Artesanal (estuche tejido para accesorios/maquillaje).
+
+Indicaciones importantes:
+- Todos los textos de producto, precios y medidas son provisionales y están sujetos a actualización cuando se confirmen las descripciones reales de cada pieza.
+- Mantener la estructura del selector de color para que al tocar un color cambie su respectiva fotografía y se actualice el mensaje de consulta por WhatsApp.
+- Mantener el panel administrativo para que la creadora pueda editar textos, precios, fotos y disponibilidad de colores por sí misma.

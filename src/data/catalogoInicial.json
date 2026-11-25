@@ -1,0 +1,258 @@
+{
+  "marca": "ISAMAR - Artesanía con identidad",
+  "whatsappNumero": "573000000000",
+  "productos": [
+    {
+      "id": "01-bolsito-mini-hombro",
+      "orden": 1,
+      "nombre": "Bolsito mini de hombro",
+      "categoria": "Bolsos",
+      "precioCOP": 85000,
+      "disponible": true,
+      "esProductoAdicional": false,
+      "fotoOriginal": "/assets/galeria/01-bolsito-mini-hombro/01-bolsito-mini-hombro_original.jpg",
+      "estadoImagen": "ilustrativa_ia",
+      "descripcion": "Bolsito compacto tejido a crochet con correa larga para llevar cruzado o al hombro. Ideal para celular, llaves, tarjetas y documentos esenciales.",
+      "medidas": "20 cm ancho x 14 cm alto x 6 cm fuelle",
+      "materiales": "Hilo artesanal de algodón / trapillo ligero de alta resistencia",
+      "cuidados": "Lavar a mano con agua fría y jabón suave. Secar a la sombra sobre superficie plana.",
+      "variantesColor": [
+        {
+          "color": "Vino",
+          "hex": "#460809",
+          "archivo": "/assets/galeria/01-bolsito-mini-hombro/01-bolsito-mini-hombro_vino.jpg",
+          "esFotoReal": false
+        },
+        {
+          "color": "Negro",
+          "hex": "#141414",
+          "archivo": "/assets/galeria/01-bolsito-mini-hombro/01-bolsito-mini-hombro_negro.jpg",
+          "esFotoReal": false
+        },
+        {
+          "color": "Beige",
+          "hex": "#E2D1B8",
+          "archivo": "/assets/galeria/01-bolsito-mini-hombro/01-bolsito-mini-hombro_beige.jpg",
+          "esFotoReal": false
+        },
+        {
+          "color": "Rosa pastel",
+          "hex": "#F3C3CC",
+          "archivo": "/assets/galeria/01-bolsito-mini-hombro/01-bolsito-mini-hombro_rosa-pastel.jpg",
+          "esFotoReal": false
+        }
+      ]
+    },
+    {
+      "id": "02-mochila",
+      "orden": 2,
+      "nombre": "Mochila",
+      "categoria": "Bolsos",
+      "precioCOP": 135000,
+      "disponible": true,
+      "esProductoAdicional": false,
+      "fotoOriginal": "/assets/galeria/02-mochila/02-mochila_original.jpg",
+      "estadoImagen": "ilustrativa_ia",
+      "descripcion": "Mochila artesanal tejida a mano con tiras ajustables, cuerpo estructurado, abertura superior y cierre práctico de cordón tejido.",
+      "medidas": "26 cm ancho x 30 cm alto x 12 cm base",
+      "materiales": "Hilo grueso tejido a mano con herrajes metálicos reforzados",
+      "cuidados": "Limpiar con paño húmedo o lavar suavemente a mano sin retorcer.",
+      "variantesColor": [
+        {
+          "color": "Café",
+          "hex": "#5E3125",
+          "archivo": "/assets/galeria/02-mochila/02-mochila_cafe.jpg",
+          "esFotoReal": false
+        },
+        {
+          "color": "Vino",
+          "hex": "#460809",
+          "archivo": "/assets/galeria/02-mochila/02-mochila_vino.jpg",
+          "esFotoReal": false
+        },
+        {
+          "color": "Negro",
+          "hex": "#141414",
+          "archivo": "/assets/galeria/02-mochila/02-mochila_negro.jpg",
+          "esFotoReal": false
+        },
+        {
+          "color": "Beige",
+          "hex": "#E2D1B8",
+          "archivo": "/assets/galeria/02-mochila/02-mochila_beige.jpg",
+          "esFotoReal": false
+        }
+      ]
+    },
+    {
+      "id": "03-bolso-elegante",
+      "orden": 3,
+      "nombre": "Bolso elegante",
+      "categoria": "Bolsos",
+      "precioCOP": 125000,
+      "disponible": true,
+      "esProductoAdicional": false,
+      "fotoOriginal": "/assets/galeria/03-bolso-elegante/03-bolso-elegante_original.jpg",
+      "estadoImagen": "ilustrativa_ia",
+      "descripcion": "Bolso artesanal con tejido grueso en relieve, borde superior reforzado con acabado enrollado y dos tiras laterales trenzadas como asa de mano.",
+      "medidas": "28 cm ancho x 22 cm alto x 10 cm base",
+      "materiales": "Trapillo premium tejido en punto relieve con asas trenzadas a mano",
+      "cuidados": "Evitar contacto con superficies ásperas. Guardar relleno de papel suave para conservar su forma.",
+      "variantesColor": [
+        {
+          "color": "Vino",
+          "hex": "#460809",
+          "archivo": "/assets/galeria/03-bolso-elegante/03-bolso-elegante_vino.jpg",
+          "esFotoReal": false
+        },
+        {
+          "color": "Negro",
+          "hex": "#141414",
+          "archivo": "/assets/galeria/03-bolso-elegante/03-bolso-elegante_negro.jpg",
+          "esFotoReal": false
+        },
+        {
+          "color": "Beige",
+          "hex": "#E2D1B8",
+          "archivo": "/assets/galeria/03-bolso-elegante/03-bolso-elegante_beige.jpg",
+          "esFotoReal": false
+        },
+        {
+          "color": "Lila",
+          "hex": "#C59FC9",
+          "archivo": "/assets/galeria/03-bolso-elegante/03-bolso-elegante_lila.jpg",
+          "esFotoReal": false
+        },
+        {
+          "color": "Rosa pastel",
+          "hex": "#F3C3CC",
+          "archivo": "/assets/galeria/03-bolso-elegante/03-bolso-elegante_rosa-pastel.jpg",
+          "esFotoReal": false
+        }
+      ]
+    },
+    {
+      "id": "04-shoulder",
+      "orden": 4,
+      "nombre": "Shoulder",
+      "categoria": "Bolsos",
+      "precioCOP": 115000,
+      "disponible": true,
+      "esProductoAdicional": false,
+      "fotoOriginal": "/assets/galeria/04-shoulder/04-shoulder_original.jpg",
+      "estadoImagen": "ilustrativa_ia",
+      "descripcion": "Bolso de hombro femenino de silueta estilizada y caída suave, diseñado para acompañar looks diarios o de ocasión con sello artesanal.",
+      "medidas": "27 cm ancho x 18 cm alto x 8 cm fuelle",
+      "materiales": "Hilo de algodón mercerizado tejido a crochet con asa cómoda al hombro",
+      "cuidados": "Lavar a mano con agua fría y secar en horizontal.",
+      "variantesColor": [
+        {
+          "color": "Blanco",
+          "hex": "#F7F5F0",
+          "archivo": "/assets/galeria/04-shoulder/04-shoulder_blanco.jpg",
+          "esFotoReal": false
+        },
+        {
+          "color": "Vino",
+          "hex": "#460809",
+          "archivo": "/assets/galeria/04-shoulder/04-shoulder_vino.jpg",
+          "esFotoReal": false
+        },
+        {
+          "color": "Rojo",
+          "hex": "#C10007",
+          "archivo": "/assets/galeria/04-shoulder/04-shoulder_rojo.jpg",
+          "esFotoReal": false
+        },
+        {
+          "color": "Negro",
+          "hex": "#141414",
+          "archivo": "/assets/galeria/04-shoulder/04-shoulder_negro.jpg",
+          "esFotoReal": false
+        }
+      ]
+    },
+    {
+      "id": "05-bucket",
+      "orden": 5,
+      "nombre": "Bucket",
+      "categoria": "Bolsos",
+      "precioCOP": 130000,
+      "disponible": true,
+      "esProductoAdicional": false,
+      "fotoOriginal": "/assets/galeria/05-bucket/05-bucket_original.jpg",
+      "estadoImagen": "ilustrativa_ia",
+      "descripcion": "Bolso tipo bucket de cuerpo redondeado, amplio y con textura voluminosa tejida a crochet, pensado para destacar en cualquier outfit.",
+      "medidas": "24 cm diámetro x 25 cm alto",
+      "materiales": "Tejido estructural de alta densidad con base firme y cierre superior",
+      "cuidados": "Lavar a mano sin usar secadora. Guardar en bolsa de tela.",
+      "variantesColor": [
+        {
+          "color": "Beige",
+          "hex": "#E2D1B8",
+          "archivo": "/assets/galeria/05-bucket/05-bucket_beige.jpg",
+          "esFotoReal": false
+        },
+        {
+          "color": "Café",
+          "hex": "#5E3125",
+          "archivo": "/assets/galeria/05-bucket/05-bucket_cafe.jpg",
+          "esFotoReal": false
+        },
+        {
+          "color": "Vino",
+          "hex": "#460809",
+          "archivo": "/assets/galeria/05-bucket/05-bucket_vino.jpg",
+          "esFotoReal": false
+        },
+        {
+          "color": "Negro",
+          "hex": "#141414",
+          "archivo": "/assets/galeria/05-bucket/05-bucket_negro.jpg",
+          "esFotoReal": false
+        }
+      ]
+    },
+    {
+      "id": "06-cosmetiquera",
+      "orden": 6,
+      "nombre": "Cosmetiquera",
+      "categoria": "Accesorios adicionales",
+      "precioCOP": 55000,
+      "disponible": true,
+      "esProductoAdicional": true,
+      "fotoOriginal": "/assets/galeria/06-cosmetiquera/06-cosmetiquera_original.jpg",
+      "estadoImagen": "ilustrativa_ia",
+      "descripcion": "Cosmetiquera artesanal tejida a crochet con hilo grueso tipo trapillo, compacta, rectangular de bordes redondeados, borde superior enrollado y asas laterales trenzadas.",
+      "medidas": "21 cm ancho x 13 cm alto x 8 cm base",
+      "materiales": "Trapillo suave tejido a mano con cierre de cremallera reforzada",
+      "cuidados": "Lavar a mano con jabón neutro y dejar secar al aire libre.",
+      "variantesColor": [
+        {
+          "color": "Rosa pastel",
+          "hex": "#F3C3CC",
+          "archivo": "/assets/galeria/06-cosmetiquera/06-cosmetiquera_rosa-pastel.jpg",
+          "esFotoReal": false
+        },
+        {
+          "color": "Lila",
+          "hex": "#C59FC9",
+          "archivo": "/assets/galeria/06-cosmetiquera/06-cosmetiquera_lila.jpg",
+          "esFotoReal": false
+        },
+        {
+          "color": "Vino",
+          "hex": "#460809",
+          "archivo": "/assets/galeria/06-cosmetiquera/06-cosmetiquera_vino.jpg",
+          "esFotoReal": false
+        },
+        {
+          "color": "Blanco",
+          "hex": "#F7F5F0",
+          "archivo": "/assets/galeria/06-cosmetiquera/06-cosmetiquera_blanco.jpg",
+          "esFotoReal": false
+        }
+      ]
+    }
+  ]
+}

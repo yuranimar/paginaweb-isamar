@@ -1,0 +1,12 @@
+/* Variables de Marca - ISAMAR */
+:root {
+  --color-vino: #460809;
+  --color-rojo: #C10007;
+  --color-cafe: #5E3125;
+  --color-negro: #000000;
+  --color-blanco: #FFFFFF;
+  --color-fondo-suave: #FAF7F5;
+
+  --font-titulos: 'Scaver', 'Playfair Display', Georgia, serif;
+  --font-cuerpo: 'DM Sans', sans-serif;
+}

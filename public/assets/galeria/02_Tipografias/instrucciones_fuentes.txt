@@ -1,0 +1,10 @@
+GUÍA DE TIPOGRAFÍAS - ISAMAR ARTESANÍA CON IDENTIDAD
+====================================================
+
+1. Scaver (Títulos y frases principales)
+   - Uso: Titulares principales, encabezados de sección y frases destacadas ("Lleva contigo lo hecho a mano", "Detalles que hacen la diferencia").
+   - Respaldo web sugerido: 'Playfair Display' o 'Cormorant Garamond' desde Google Fonts si no se cuenta con el archivo licenciado de Scaver.
+
+2. DM Sans (Textos y botones)
+   - Uso: Descripciones de producto, precios, navegación, etiquetas y botones ("Explorar catálogo", "Consultar por WhatsApp").
+   - Enlace Google Fonts: https://fonts.google.com/specimen/DM+Sans
