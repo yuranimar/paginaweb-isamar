@@ -1,0 +1,161 @@
+.isamar-modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.65);
+  display: grid;
+  place-items: center;
+  padding: 16px;
+  z-index: 100;
+}
+
+.isamar-modal {
+  position: relative;
+  background: var(--isamar-blanco);
+  color: var(--isamar-negro);
+  border-radius: var(--radius-md);
+  max-width: 820px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  box-shadow: 0 24px 60px rgba(0, 0, 0, 0.28);
+  padding: 24px;
+}
+
+.isamar-modal__close {
+  position: absolute;
+  top: 14px;
+  right: 14px;
+  width: 34px;
+  height: 34px;
+  border-radius: 50%;
+  border: 1px solid var(--isamar-borde);
+  background: var(--isamar-blanco);
+  color: var(--isamar-negro);
+  font-size: 1rem;
+  cursor: pointer;
+  display: grid;
+  place-items: center;
+}
+
+.isamar-modal__close:hover {
+  border-color: var(--isamar-vino);
+  color: var(--isamar-vino);
+}
+
+.isamar-modal__grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 24px;
+  align-items: start;
+}
+
+.isamar-modal__media {
+  border-radius: var(--radius-sm);
+  overflow: hidden;
+  background: var(--isamar-crema);
+  aspect-ratio: 4 / 5;
+}
+
+.isamar-modal__img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.isamar-modal__info {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.isamar-modal__categoria {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--isamar-cafe);
+  font-weight: 600;
+}
+
+.isamar-modal__titulo {
+  font-family: var(--font-display);
+  font-size: 1.65rem;
+  line-height: 1.2;
+  color: var(--isamar-vino);
+}
+
+.isamar-modal__precio {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: var(--isamar-negro);
+}
+
+.isamar-modal__estado {
+  font-size: 0.88rem;
+  color: var(--isamar-texto-suave);
+}
+
+.isamar-modal__descripcion {
+  font-size: 0.95rem;
+  line-height: 1.55;
+}
+
+.isamar-modal__swatches-wrap {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.isamar-modal__color-label {
+  font-size: 0.88rem;
+  color: var(--isamar-texto-suave);
+}
+
+.isamar-modal__color-label strong {
+  color: var(--isamar-negro);
+}
+
+.isamar-modal__swatches {
+  display: flex;
+  gap: 10px;
+}
+
+.isamar-modal__swatch {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(0, 0, 0, 0.2);
+  background-color: var(--swatch-color);
+  cursor: pointer;
+  transition: transform var(--transition-fast);
+}
+
+.isamar-modal__swatch.is-active {
+  outline: 2px solid var(--isamar-vino);
+  outline-offset: 2px;
+  transform: scale(1.08);
+}
+
+.isamar-modal__specs {
+  border-top: 1px solid var(--isamar-borde);
+  border-bottom: 1px solid var(--isamar-borde);
+  padding: 12px 0;
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  font-size: 0.88rem;
+}
+
+.isamar-modal__specs dt {
+  font-weight: 700;
+  color: var(--isamar-cafe);
+}
+
+.isamar-modal__specs dd {
+  color: var(--isamar-texto-suave);
+}
+
+.isamar-modal__cta {
+  width: 100%;
+  padding: 12px 16px;
+  margin-top: 4px;
+}
