@@ -129,9 +129,9 @@ export default function App() {
     }
   };
 
-  const fotoHero = "/assets/galeria/06-cosmetiquera/hero.jpeg";
-  const fotoRespaldo = "/assets/galeria/06-cosmetiquera/bolso_tejido_elegancia_portada.jpeg";
-  const fotoDetalle = "/assets/galeria/06-cosmetiquera/bolso_tejido_elegancia_hover.jpeg";
+  const fotoHero = `${import.meta.env.BASE_URL}assets/galeria/06-cosmetiquera/hero.jpeg`;
+  const fotoRespaldo = `${import.meta.env.BASE_URL}assets/galeria/06-cosmetiquera/bolso_tejido_elegancia_portada.jpeg`;
+  const fotoDetalle = `${import.meta.env.BASE_URL}assets/galeria/06-cosmetiquera/bolso_tejido_elegancia_hover.jpeg`;
 
   return (
     <div id="inicio" style={{ backgroundColor: "#FFFFFF", color: "#000000" }}>
@@ -139,7 +139,7 @@ export default function App() {
         <nav className="isamar-nav" aria-label="Navegación principal">
           <a href="#inicio" className="isamar-brand">
             <img
-              src="/assets/galeria/01_Logos/logo_isamar_principal.jpeg"
+              src=`${import.meta.env.BASE_URL}assets/galeria/01_Logos/logo_isamar_principal.jpeg`
               alt={catalogoData.marca}
               className="isamar-brand__logo"
               onError={(e) => {
@@ -579,5 +579,6 @@ export default function App() {
     </div>
   );
 }
+
 
 
