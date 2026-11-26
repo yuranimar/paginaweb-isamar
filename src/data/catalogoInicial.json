@@ -1,258 +1,367 @@
-{
-  "marca": "ISAMAR - Artesanía con identidad",
-  "whatsappNumero": "573000000000",
-  "productos": [
-    {
-      "id": "01-bolsito-mini-hombro",
-      "orden": 1,
-      "nombre": "Bolsito mini de hombro",
-      "categoria": "Bolsos",
-      "precioCOP": 85000,
-      "disponible": true,
-      "esProductoAdicional": false,
-      "fotoOriginal": "/assets/galeria/01-bolsito-mini-hombro/01-bolsito-mini-hombro_original.jpg",
-      "estadoImagen": "ilustrativa_ia",
-      "descripcion": "Bolsito compacto tejido a crochet con correa larga para llevar cruzado o al hombro. Ideal para celular, llaves, tarjetas y documentos esenciales.",
-      "medidas": "20 cm ancho x 14 cm alto x 6 cm fuelle",
-      "materiales": "Hilo artesanal de algodón / trapillo ligero de alta resistencia",
-      "cuidados": "Lavar a mano con agua fría y jabón suave. Secar a la sombra sobre superficie plana.",
-      "variantesColor": [
-        {
-          "color": "Vino",
-          "hex": "#460809",
-          "archivo": "/assets/galeria/01-bolsito-mini-hombro/01-bolsito-mini-hombro_vino.jpg",
-          "esFotoReal": false
-        },
-        {
-          "color": "Negro",
-          "hex": "#141414",
-          "archivo": "/assets/galeria/01-bolsito-mini-hombro/01-bolsito-mini-hombro_negro.jpg",
-          "esFotoReal": false
-        },
-        {
-          "color": "Beige",
-          "hex": "#E2D1B8",
-          "archivo": "/assets/galeria/01-bolsito-mini-hombro/01-bolsito-mini-hombro_beige.jpg",
-          "esFotoReal": false
-        },
-        {
-          "color": "Rosa pastel",
-          "hex": "#F3C3CC",
-          "archivo": "/assets/galeria/01-bolsito-mini-hombro/01-bolsito-mini-hombro_rosa-pastel.jpg",
-          "esFotoReal": false
-        }
-      ]
-    },
-    {
-      "id": "02-mochila",
-      "orden": 2,
-      "nombre": "Mochila",
-      "categoria": "Bolsos",
-      "precioCOP": 135000,
-      "disponible": true,
-      "esProductoAdicional": false,
-      "fotoOriginal": "/assets/galeria/02-mochila/02-mochila_original.jpg",
-      "estadoImagen": "ilustrativa_ia",
-      "descripcion": "Mochila artesanal tejida a mano con tiras ajustables, cuerpo estructurado, abertura superior y cierre práctico de cordón tejido.",
-      "medidas": "26 cm ancho x 30 cm alto x 12 cm base",
-      "materiales": "Hilo grueso tejido a mano con herrajes metálicos reforzados",
-      "cuidados": "Limpiar con paño húmedo o lavar suavemente a mano sin retorcer.",
-      "variantesColor": [
-        {
-          "color": "Café",
-          "hex": "#5E3125",
-          "archivo": "/assets/galeria/02-mochila/02-mochila_cafe.jpg",
-          "esFotoReal": false
-        },
-        {
-          "color": "Vino",
-          "hex": "#460809",
-          "archivo": "/assets/galeria/02-mochila/02-mochila_vino.jpg",
-          "esFotoReal": false
-        },
-        {
-          "color": "Negro",
-          "hex": "#141414",
-          "archivo": "/assets/galeria/02-mochila/02-mochila_negro.jpg",
-          "esFotoReal": false
-        },
-        {
-          "color": "Beige",
-          "hex": "#E2D1B8",
-          "archivo": "/assets/galeria/02-mochila/02-mochila_beige.jpg",
-          "esFotoReal": false
-        }
-      ]
-    },
-    {
-      "id": "03-bolso-elegante",
-      "orden": 3,
-      "nombre": "Bolso elegante",
-      "categoria": "Bolsos",
-      "precioCOP": 125000,
-      "disponible": true,
-      "esProductoAdicional": false,
-      "fotoOriginal": "/assets/galeria/03-bolso-elegante/03-bolso-elegante_original.jpg",
-      "estadoImagen": "ilustrativa_ia",
-      "descripcion": "Bolso artesanal con tejido grueso en relieve, borde superior reforzado con acabado enrollado y dos tiras laterales trenzadas como asa de mano.",
-      "medidas": "28 cm ancho x 22 cm alto x 10 cm base",
-      "materiales": "Trapillo premium tejido en punto relieve con asas trenzadas a mano",
-      "cuidados": "Evitar contacto con superficies ásperas. Guardar relleno de papel suave para conservar su forma.",
-      "variantesColor": [
-        {
-          "color": "Vino",
-          "hex": "#460809",
-          "archivo": "/assets/galeria/03-bolso-elegante/03-bolso-elegante_vino.jpg",
-          "esFotoReal": false
-        },
-        {
-          "color": "Negro",
-          "hex": "#141414",
-          "archivo": "/assets/galeria/03-bolso-elegante/03-bolso-elegante_negro.jpg",
-          "esFotoReal": false
-        },
-        {
-          "color": "Beige",
-          "hex": "#E2D1B8",
-          "archivo": "/assets/galeria/03-bolso-elegante/03-bolso-elegante_beige.jpg",
-          "esFotoReal": false
-        },
-        {
-          "color": "Lila",
-          "hex": "#C59FC9",
-          "archivo": "/assets/galeria/03-bolso-elegante/03-bolso-elegante_lila.jpg",
-          "esFotoReal": false
-        },
-        {
-          "color": "Rosa pastel",
-          "hex": "#F3C3CC",
-          "archivo": "/assets/galeria/03-bolso-elegante/03-bolso-elegante_rosa-pastel.jpg",
-          "esFotoReal": false
-        }
-      ]
-    },
-    {
-      "id": "04-shoulder",
-      "orden": 4,
-      "nombre": "Shoulder",
-      "categoria": "Bolsos",
-      "precioCOP": 115000,
-      "disponible": true,
-      "esProductoAdicional": false,
-      "fotoOriginal": "/assets/galeria/04-shoulder/04-shoulder_original.jpg",
-      "estadoImagen": "ilustrativa_ia",
-      "descripcion": "Bolso de hombro femenino de silueta estilizada y caída suave, diseñado para acompañar looks diarios o de ocasión con sello artesanal.",
-      "medidas": "27 cm ancho x 18 cm alto x 8 cm fuelle",
-      "materiales": "Hilo de algodón mercerizado tejido a crochet con asa cómoda al hombro",
-      "cuidados": "Lavar a mano con agua fría y secar en horizontal.",
-      "variantesColor": [
-        {
-          "color": "Blanco",
-          "hex": "#F7F5F0",
-          "archivo": "/assets/galeria/04-shoulder/04-shoulder_blanco.jpg",
-          "esFotoReal": false
-        },
-        {
-          "color": "Vino",
-          "hex": "#460809",
-          "archivo": "/assets/galeria/04-shoulder/04-shoulder_vino.jpg",
-          "esFotoReal": false
-        },
-        {
-          "color": "Rojo",
-          "hex": "#C10007",
-          "archivo": "/assets/galeria/04-shoulder/04-shoulder_rojo.jpg",
-          "esFotoReal": false
-        },
-        {
-          "color": "Negro",
-          "hex": "#141414",
-          "archivo": "/assets/galeria/04-shoulder/04-shoulder_negro.jpg",
-          "esFotoReal": false
-        }
-      ]
-    },
-    {
-      "id": "05-bucket",
-      "orden": 5,
-      "nombre": "Bucket",
-      "categoria": "Bolsos",
-      "precioCOP": 130000,
-      "disponible": true,
-      "esProductoAdicional": false,
-      "fotoOriginal": "/assets/galeria/05-bucket/05-bucket_original.jpg",
-      "estadoImagen": "ilustrativa_ia",
-      "descripcion": "Bolso tipo bucket de cuerpo redondeado, amplio y con textura voluminosa tejida a crochet, pensado para destacar en cualquier outfit.",
-      "medidas": "24 cm diámetro x 25 cm alto",
-      "materiales": "Tejido estructural de alta densidad con base firme y cierre superior",
-      "cuidados": "Lavar a mano sin usar secadora. Guardar en bolsa de tela.",
-      "variantesColor": [
-        {
-          "color": "Beige",
-          "hex": "#E2D1B8",
-          "archivo": "/assets/galeria/05-bucket/05-bucket_beige.jpg",
-          "esFotoReal": false
-        },
-        {
-          "color": "Café",
-          "hex": "#5E3125",
-          "archivo": "/assets/galeria/05-bucket/05-bucket_cafe.jpg",
-          "esFotoReal": false
-        },
-        {
-          "color": "Vino",
-          "hex": "#460809",
-          "archivo": "/assets/galeria/05-bucket/05-bucket_vino.jpg",
-          "esFotoReal": false
-        },
-        {
-          "color": "Negro",
-          "hex": "#141414",
-          "archivo": "/assets/galeria/05-bucket/05-bucket_negro.jpg",
-          "esFotoReal": false
-        }
-      ]
-    },
-    {
-      "id": "06-cosmetiquera",
-      "orden": 6,
-      "nombre": "Cosmetiquera",
-      "categoria": "Accesorios adicionales",
-      "precioCOP": 55000,
-      "disponible": true,
-      "esProductoAdicional": true,
-      "fotoOriginal": "/assets/galeria/06-cosmetiquera/06-cosmetiquera_original.jpg",
-      "estadoImagen": "ilustrativa_ia",
-      "descripcion": "Cosmetiquera artesanal tejida a crochet con hilo grueso tipo trapillo, compacta, rectangular de bordes redondeados, borde superior enrollado y asas laterales trenzadas.",
-      "medidas": "21 cm ancho x 13 cm alto x 8 cm base",
-      "materiales": "Trapillo suave tejido a mano con cierre de cremallera reforzada",
-      "cuidados": "Lavar a mano con jabón neutro y dejar secar al aire libre.",
-      "variantesColor": [
-        {
-          "color": "Rosa pastel",
-          "hex": "#F3C3CC",
-          "archivo": "/assets/galeria/06-cosmetiquera/06-cosmetiquera_rosa-pastel.jpg",
-          "esFotoReal": false
-        },
-        {
-          "color": "Lila",
-          "hex": "#C59FC9",
-          "archivo": "/assets/galeria/06-cosmetiquera/06-cosmetiquera_lila.jpg",
-          "esFotoReal": false
-        },
-        {
-          "color": "Vino",
-          "hex": "#460809",
-          "archivo": "/assets/galeria/06-cosmetiquera/06-cosmetiquera_vino.jpg",
-          "esFotoReal": false
-        },
-        {
-          "color": "Blanco",
-          "hex": "#F7F5F0",
-          "archivo": "/assets/galeria/06-cosmetiquera/06-cosmetiquera_blanco.jpg",
-          "esFotoReal": false
-        }
-      ]
-    }
-  ]
+﻿{
+    "marca":  "ISAMAR - Artesanía con identidad",
+    "whatsappNumero":  "573000000000",
+    "productos":  [
+                      {
+                          "id":  "01-bolso-tejido-elegancia",
+                          "orden":  1,
+                          "nombre":  "Bolso Tejido Elegancia",
+                          "categoria":  "Bolsos",
+                          "precioCOP":  120000,
+                          "disponible":  true,
+                          "esProductoAdicional":  false,
+                          "fotoOriginal":  "/assets/galeria/06-cosmetiquera/bolso_tejido_elegancia_portada.jpeg",
+                          "estadoImagen":  "galeria_local",
+                          "descripcion":  "Bolso artesanal tejido a mano con acabado elegante y textura definida, pensado para acompañar looks diarios y ocasiones especiales con identidad.",
+                          "medidas":  "28 cm ancho x 22 cm alto x 10 cm base",
+                          "materiales":  "Hilo artesanal tejido a mano con asa reforzada",
+                          "cuidados":  "Lavar a mano con agua fría y jabón suave. Secar a la sombra sobre superficie plana.",
+                          "variantesColor":  [
+                                                 {
+                                                     "color":  "Fucsia",
+                                                     "hex":  "#C2185B",
+                                                     "archivo":  "/assets/galeria/06-cosmetiquera/bolso_tejido_elegancia_fuccia.jpeg",
+                                                     "esFotoReal":  true,
+                                                     "fotoSecundaria":  "/assets/galeria/06-cosmetiquera/bolso_tejido_elegancia_hover.jpeg"
+                                                 },
+                                                 {
+                                                     "color":  "Morado",
+                                                     "hex":  "#6E3B77",
+                                                     "archivo":  "/assets/galeria/06-cosmetiquera/bolso_tejido_elegancia_morado.jpeg",
+                                                     "esFotoReal":  true,
+                                                     "fotoSecundaria":  "/assets/galeria/06-cosmetiquera/bolso_tejido_elegancia_hover.jpeg"
+                                                 },
+                                                 {
+                                                     "color":  "Borgoña",
+                                                     "hex":  "#460809",
+                                                     "archivo":  "/assets/galeria/06-cosmetiquera/bolso_tejido_elegancia_borgona.jpeg",
+                                                     "esFotoReal":  true,
+                                                     "fotoSecundaria":  "/assets/galeria/06-cosmetiquera/bolso_tejido_elegancia_hover.jpeg"
+                                                 }
+                                             ],
+                          "imagenes":  [
+                                           "/assets/galeria/06-cosmetiquera/bolso_tejido_elegancia_portada.jpeg",
+                                           "/assets/galeria/06-cosmetiquera/bolso_tejido_elegancia_fuccia.jpeg",
+                                           "/assets/galeria/06-cosmetiquera/bolso_tejido_elegancia_morado.jpeg",
+                                           "/assets/galeria/06-cosmetiquera/bolso_tejido_elegancia_borgona.jpeg",
+                                           "/assets/galeria/06-cosmetiquera/bolso_tejido_elegancia_hover.jpeg",
+                                           "/assets/galeria/06-cosmetiquera/hero.jpeg"
+                                       ]
+                      },
+                      {
+                          "id":  "02-bolso-cadena-chic",
+                          "orden":  2,
+                          "nombre":  "Bolso Cadena Chic",
+                          "categoria":  "Bolsos",
+                          "precioCOP":  110000,
+                          "disponible":  true,
+                          "esProductoAdicional":  false,
+                          "fotoOriginal":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/02_Bolsito_Manos_Libres_Bandolera/bolsito_manos_libres_bandolera_cafe.jpg",
+                          "estadoImagen":  "galeria_local",
+                          "descripcion":  "Bolso tejido a mano de estilo chic y versátil, ideal para llevar con comodidad y resaltar tu outfit con un toque artesanal.",
+                          "medidas":  "24 cm ancho x 17 cm alto x 8 cm fuelle",
+                          "materiales":  "Hilo artesanal tejido a crochet con correa/cadena",
+                          "cuidados":  "Lavar a mano con agua fría y jabón suave. Secar a la sombra.",
+                          "variantesColor":  [
+                                                 {
+                                                     "color":  "Café",
+                                                     "hex":  "#5E3125",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/02_Bolsito_Manos_Libres_Bandolera/bolsito_manos_libres_bandolera_cafe.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/02_Bolsito_Manos_Libres_Bandolera/bolsito_manos_libres_bandolera_cafe_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 },
+                                                 {
+                                                     "color":  "Vino",
+                                                     "hex":  "#460809",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/02_Bolsito_Manos_Libres_Bandolera/bolsito_manos_libres_bandolera_vino.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/02_Bolsito_Manos_Libres_Bandolera/bolsito_manos_libres_bandolera_vino_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 },
+                                                 {
+                                                     "color":  "Rojo",
+                                                     "hex":  "#C10007",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/02_Bolsito_Manos_Libres_Bandolera/bolsito_manos_libres_bandolera_rojo.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/02_Bolsito_Manos_Libres_Bandolera/bolsito_manos_libres_bandolera_rojo_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 },
+                                                 {
+                                                     "color":  "Negro",
+                                                     "hex":  "#141414",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/02_Bolsito_Manos_Libres_Bandolera/bolsito_manos_libres_bandolera_negro.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/02_Bolsito_Manos_Libres_Bandolera/bolsito_manos_libres_bandolera_negro_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 }
+                                             ]
+                      },
+                      {
+                          "id":  "03-bolso-nudo-esencial",
+                          "orden":  3,
+                          "nombre":  "Bolso Nudo Esencial",
+                          "categoria":  "Bolsos",
+                          "precioCOP":  100000,
+                          "disponible":  true,
+                          "esProductoAdicional":  false,
+                          "fotoOriginal":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/03_Bolso_Grande_Tote_Espacioso/bolso_grande_tote_espacioso_crema.jpg",
+                          "estadoImagen":  "galeria_local",
+                          "descripcion":  "Bolso artesanal con detalle característico y textura tejida a mano, práctico y delicado para el día a día.",
+                          "medidas":  "26 cm ancho x 18 cm alto x 9 cm base",
+                          "materiales":  "Tejido artesanal suave con acabado detallado",
+                          "cuidados":  "Limpiar con paño húmedo o lavar a mano sin retorcer.",
+                          "variantesColor":  [
+                                                 {
+                                                     "color":  "Crema",
+                                                     "hex":  "#E2D1B8",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/03_Bolso_Grande_Tote_Espacioso/bolso_grande_tote_espacioso_crema.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/03_Bolso_Grande_Tote_Espacioso/bolso_grande_tote_espacioso_crema_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 },
+                                                 {
+                                                     "color":  "Vino",
+                                                     "hex":  "#460809",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/03_Bolso_Grande_Tote_Espacioso/bolso_grande_tote_espacioso_vino.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/03_Bolso_Grande_Tote_Espacioso/bolso_grande_tote_espacioso_vino_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 },
+                                                 {
+                                                     "color":  "Café",
+                                                     "hex":  "#5E3125",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/03_Bolso_Grande_Tote_Espacioso/bolso_grande_tote_espacioso_cafe.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/03_Bolso_Grande_Tote_Espacioso/bolso_grande_tote_espacioso_cafe_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 },
+                                                 {
+                                                     "color":  "Negro",
+                                                     "hex":  "#141414",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/03_Bolso_Grande_Tote_Espacioso/bolso_grande_tote_espacioso_negro.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/03_Bolso_Grande_Tote_Espacioso/bolso_grande_tote_espacioso_negro_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 }
+                                             ]
+                      },
+                      {
+                          "id":  "04-bolso-minimal",
+                          "orden":  4,
+                          "nombre":  "Bolso Minimal",
+                          "categoria":  "Bolsos",
+                          "precioCOP":  115000,
+                          "disponible":  true,
+                          "esProductoAdicional":  false,
+                          "fotoOriginal":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/04_Bolso_Asa_Trenzada_Compacto/bolso_asa_trenzada_compacto_negro.jpg",
+                          "estadoImagen":  "galeria_local",
+                          "descripcion":  "Bolso de líneas limpias y tejido artesanal, pensado para quienes buscan elegancia sobria y funcionalidad.",
+                          "medidas":  "25 cm ancho x 19 cm alto x 9 cm base",
+                          "materiales":  "Hilo artesanal tejido a mano con estructura equilibrada",
+                          "cuidados":  "Lavar a mano con agua fría y secar en horizontal.",
+                          "variantesColor":  [
+                                                 {
+                                                     "color":  "Negro",
+                                                     "hex":  "#141414",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/04_Bolso_Asa_Trenzada_Compacto/bolso_asa_trenzada_compacto_negro.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/04_Bolso_Asa_Trenzada_Compacto/bolso_asa_trenzada_compacto_negro_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 },
+                                                 {
+                                                     "color":  "Vino",
+                                                     "hex":  "#460809",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/04_Bolso_Asa_Trenzada_Compacto/bolso_asa_trenzada_compacto_vino.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/04_Bolso_Asa_Trenzada_Compacto/bolso_asa_trenzada_compacto_vino_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 },
+                                                 {
+                                                     "color":  "Rojo",
+                                                     "hex":  "#C10007",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/04_Bolso_Asa_Trenzada_Compacto/bolso_asa_trenzada_compacto_rojo.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/04_Bolso_Asa_Trenzada_Compacto/bolso_asa_trenzada_compacto_rojo_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 },
+                                                 {
+                                                     "color":  "Crema",
+                                                     "hex":  "#E2D1B8",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/04_Bolso_Asa_Trenzada_Compacto/bolso_asa_trenzada_compacto_crema.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/04_Bolso_Asa_Trenzada_Compacto/bolso_asa_trenzada_compacto_crema_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 }
+                                             ]
+                      },
+                      {
+                          "id":  "05-cosmetiquera-esencial",
+                          "orden":  5,
+                          "nombre":  "Cosmetiquera Esencial",
+                          "categoria":  "Cosmetiqueras",
+                          "precioCOP":  45000,
+                          "disponible":  true,
+                          "esProductoAdicional":  true,
+                          "fotoOriginal":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_cafe.jpg",
+                          "estadoImagen":  "galeria_local",
+                          "descripcion":  "Cosmetiquera artesanal tejida a mano, práctica y compacta para llevar tus básicos diarios con orden y estilo.",
+                          "medidas":  "21 cm ancho x 13 cm alto x 8 cm base",
+                          "materiales":  "Hilo artesanal tejido a mano con cierre práctico",
+                          "cuidados":  "Lavar a mano con jabón neutro y dejar secar al aire libre.",
+                          "variantesColor":  [
+                                                 {
+                                                     "color":  "Café",
+                                                     "hex":  "#5E3125",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_cafe.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_cafe_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 },
+                                                 {
+                                                     "color":  "Vino",
+                                                     "hex":  "#460809",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_vino.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_vino_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 },
+                                                 {
+                                                     "color":  "Crema",
+                                                     "hex":  "#E2D1B8",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_crema.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_crema_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 },
+                                                 {
+                                                     "color":  "Negro",
+                                                     "hex":  "#141414",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_negro.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_negro_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 }
+                                             ]
+                      },
+                      {
+                          "id":  "06-cosmetiquera-elegance",
+                          "orden":  6,
+                          "nombre":  "Cosmetiquera Elegance",
+                          "categoria":  "Cosmetiqueras",
+                          "precioCOP":  45000,
+                          "disponible":  true,
+                          "esProductoAdicional":  true,
+                          "fotoOriginal":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_vino.jpg",
+                          "estadoImagen":  "galeria_local",
+                          "descripcion":  "Cosmetiquera tejida a mano con acabado elegante y textura cuidada, ideal para maquillaje o accesorios.",
+                          "medidas":  "21 cm ancho x 13 cm alto x 8 cm base",
+                          "materiales":  "Hilo artesanal tejido a mano con cierre reforzado",
+                          "cuidados":  "Lavar a mano con jabón neutro y secar a la sombra.",
+                          "variantesColor":  [
+                                                 {
+                                                     "color":  "Vino",
+                                                     "hex":  "#460809",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_vino.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_vino_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 },
+                                                 {
+                                                     "color":  "Crema",
+                                                     "hex":  "#E2D1B8",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_crema.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_crema_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 },
+                                                 {
+                                                     "color":  "Café",
+                                                     "hex":  "#5E3125",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_cafe.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_cafe_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 },
+                                                 {
+                                                     "color":  "Negro",
+                                                     "hex":  "#141414",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_negro.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_negro_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 }
+                                             ]
+                      },
+                      {
+                          "id":  "07-cosmetiquera-dream",
+                          "orden":  7,
+                          "nombre":  "Cosmetiquera Dream",
+                          "categoria":  "Cosmetiqueras",
+                          "precioCOP":  50000,
+                          "disponible":  true,
+                          "esProductoAdicional":  true,
+                          "fotoOriginal":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_crema.jpg",
+                          "estadoImagen":  "galeria_local",
+                          "descripcion":  "Cosmetiquera artesanal de estética luminosa y suave, perfecta para organizar esenciales en cartera o viaje.",
+                          "medidas":  "21 cm ancho x 13 cm alto x 8 cm base",
+                          "materiales":  "Hilo artesanal tejido a mano con acabado delicado",
+                          "cuidados":  "Lavar a mano con jabón neutro y dejar secar al aire libre.",
+                          "variantesColor":  [
+                                                 {
+                                                     "color":  "Crema",
+                                                     "hex":  "#E2D1B8",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_crema.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_crema_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 },
+                                                 {
+                                                     "color":  "Vino",
+                                                     "hex":  "#460809",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_vino.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_vino_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 },
+                                                 {
+                                                     "color":  "Café",
+                                                     "hex":  "#5E3125",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_cafe.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_cafe_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 },
+                                                 {
+                                                     "color":  "Negro",
+                                                     "hex":  "#141414",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_negro.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/06_Cosmetiquera_Artesanal/cosmetiquera_artesanal_negro_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 }
+                                             ]
+                      },
+                      {
+                          "id":  "08-cosmetiquera-classy",
+                          "orden":  8,
+                          "nombre":  "Cosmetiquera Classy",
+                          "categoria":  "Cosmetiqueras",
+                          "precioCOP":  50000,
+                          "disponible":  true,
+                          "esProductoAdicional":  true,
+                          "fotoOriginal":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/05_Bolso_Asa_Trenzada_Estructurado/bolso_asa_trenzada_estructurado_cafe.jpg",
+                          "estadoImagen":  "galeria_local",
+                          "descripcion":  "Cosmetiquera artesanal de aire clásico y textura marcada, pensada para acompañar tus piezas ISAMAR con armonía.",
+                          "medidas":  "21 cm ancho x 13 cm alto x 8 cm base",
+                          "materiales":  "Hilo artesanal tejido a mano de alta durabilidad",
+                          "cuidados":  "Lavar a mano con agua fría y jabón suave.",
+                          "variantesColor":  [
+                                                 {
+                                                     "color":  "Café",
+                                                     "hex":  "#5E3125",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/05_Bolso_Asa_Trenzada_Estructurado/bolso_asa_trenzada_estructurado_cafe.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/05_Bolso_Asa_Trenzada_Estructurado/bolso_asa_trenzada_estructurado_cafe_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 },
+                                                 {
+                                                     "color":  "Vino",
+                                                     "hex":  "#460809",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/05_Bolso_Asa_Trenzada_Estructurado/bolso_asa_trenzada_estructurado_vino.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/05_Bolso_Asa_Trenzada_Estructurado/bolso_asa_trenzada_estructurado_vino_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 },
+                                                 {
+                                                     "color":  "Rojo",
+                                                     "hex":  "#C10007",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/05_Bolso_Asa_Trenzada_Estructurado/bolso_asa_trenzada_estructurado_rojo.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/05_Bolso_Asa_Trenzada_Estructurado/bolso_asa_trenzada_estructurado_rojo_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 },
+                                                 {
+                                                     "color":  "Negro",
+                                                     "hex":  "#141414",
+                                                     "archivo":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/05_Bolso_Asa_Trenzada_Estructurado/bolso_asa_trenzada_estructurado_negro.jpg",
+                                                     "fotoSecundaria":  "/assets/galeria/04_Fotografias_Por_Estilo_Y_Color/05_Bolso_Asa_Trenzada_Estructurado/bolso_asa_trenzada_estructurado_negro_uso.jpg",
+                                                     "esFotoReal":  true
+                                                 }
+                                             ]
+                      }
+                  ]
 }

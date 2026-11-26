@@ -1,5 +1,6 @@
-import { useEffect, useState } from "react";
+﻿import { useEffect, useState } from "react";
 import { formatCOP, buildWhatsAppOrderUrl } from "../utils/whatsapp";
+import { CrochetBagIcon } from "./CrochetCartDrawer";
 import "./ProductDetailModal.css";
 
 export default function ProductDetailModal({
@@ -7,6 +8,7 @@ export default function ProductDetailModal({
   varianteInicial,
   whatsappNumero = "573000000000",
   onClose,
+  onAddToCart,
 }) {
   const variantes = producto?.variantesColor || [];
   const indiceInicial = Math.max(
@@ -57,7 +59,7 @@ export default function ProductDetailModal({
           onClick={onClose}
           aria-label="Cerrar detalle del producto"
         >
-          ✕
+          ×
         </button>
 
         <div className="isamar-modal__grid">
@@ -121,17 +123,42 @@ export default function ProductDetailModal({
               </div>
             </dl>
 
-            <a
-              href={waUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="isamar-btn isamar-btn--primary isamar-modal__cta"
-            >
-              Confirmar pedido por WhatsApp ({varianteActiva.color})
-            </a>
+            <div style={{ display: "flex", flexDirection: "column", gap: "10px", marginTop: "14px" }}>
+              {onAddToCart && (
+                <button
+                  type="button"
+                  onClick={() => {
+                    onAddToCart(producto, varianteActiva);
+                    onClose();
+                  }}
+                  className="isamar-btn isamar-btn--primary isamar-modal__cta"
+                  style={{
+                    display: "inline-flex",
+                    alignItems: "center",
+                    justifyContent: "center",
+                    gap: "8px",
+                    cursor: "pointer",
+                  }}
+                >
+                  <CrochetBagIcon size={18} />
+                  <span>{varianteActiva.color}</span>
+                </button>
+              )}
+
+              <a
+                href={waUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="isamar-btn isamar-btn--outline isamar-modal__cta"
+              >
+                Confirmar pedido por WhatsApp ({varianteActiva.color})
+              </a>
+            </div>
           </div>
         </div>
       </div>
     </div>
   );
 }
+
+

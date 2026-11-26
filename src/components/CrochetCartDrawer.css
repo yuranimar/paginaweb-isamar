@@ -1,0 +1,249 @@
+﻿.isamar-cart-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 90;
+  background-color: rgba(20, 20, 20, 0.48);
+  backdrop-filter: blur(2px);
+  display: flex;
+  justify-content: flex-end;
+}
+
+.isamar-cart-drawer {
+  width: 100%;
+  max-width: 410px;
+  height: 100%;
+  background-color: #FFFFFF;
+  color: var(--isamar-negro);
+  display: flex;
+  flex-direction: column;
+  box-shadow: -12px 0 32px rgba(70, 8, 9, 0.18);
+  animation: isamarSlideIn 0.24s ease-out;
+}
+
+@keyframes isamarSlideIn {
+  from {
+    transform: translateX(100%);
+  }
+  to {
+    transform: translateX(0);
+  }
+}
+
+.isamar-cart-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 18px 20px;
+  border-bottom: 1px solid #EAE3E0;
+  background-color: #FAF8F7;
+}
+
+.isamar-cart-title-wrap {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.isamar-cart-bag-badge {
+  width: 42px;
+  height: 42px;
+  border-radius: 14px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgba(70, 8, 9, 0.08);
+  color: var(--isamar-vino);
+}
+
+.isamar-cart-title {
+  margin: 0;
+  font-family: var(--font-display);
+  font-size: 1.35rem;
+  color: var(--isamar-vino);
+}
+
+.isamar-cart-subtitle {
+  font-size: 0.78rem;
+  color: #5E3125;
+}
+
+.isamar-cart-close {
+  width: 34px;
+  height: 34px;
+  border-radius: 999px;
+  border: 1px solid #D8CFCB;
+  background-color: #FFFFFF;
+  color: var(--isamar-vino);
+  font-size: 1.3rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.isamar-cart-body {
+  flex: 1;
+  overflow-y: auto;
+  padding: 18px 20px;
+}
+
+.isamar-cart-empty {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  gap: 10px;
+  color: #5E3125;
+  padding: 24px 12px;
+}
+
+.isamar-cart-empty p {
+  margin: 0;
+  font-weight: 600;
+  color: var(--isamar-vino);
+}
+
+.isamar-cart-empty span {
+  font-size: 0.88rem;
+  max-width: 260px;
+}
+
+.isamar-cart-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+}
+
+.isamar-cart-item {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid #EAE3E0;
+  border-radius: 12px;
+  background-color: #FAF8F7;
+}
+
+.isamar-cart-item__img {
+  width: 72px;
+  height: 72px;
+  object-fit: cover;
+  border-radius: 8px;
+  background-color: #FFFFFF;
+  flex-shrink: 0;
+}
+
+.isamar-cart-item__info {
+  flex: 1;
+  min-width: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.isamar-cart-item__name {
+  margin: 0;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--isamar-negro);
+}
+
+.isamar-cart-item__color {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.8rem;
+  color: #5E3125;
+}
+
+.isamar-cart-item__dot {
+  width: 10px;
+  height: 10px;
+  border-radius: 999px;
+  border: 1px solid rgba(20, 20, 20, 0.2);
+}
+
+.isamar-cart-item__price {
+  font-size: 0.9rem;
+  color: var(--isamar-vino);
+}
+
+.isamar-cart-item__controls {
+  margin-top: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.isamar-qty-box {
+  display: inline-flex;
+  align-items: center;
+  border: 1px solid #D8CFCB;
+  border-radius: 999px;
+  background-color: #FFFFFF;
+  overflow: hidden;
+}
+
+.isamar-qty-box button {
+  width: 26px;
+  height: 26px;
+  border: none;
+  background: transparent;
+  color: var(--isamar-vino);
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.isamar-qty-box span {
+  padding: 0 8px;
+  font-size: 0.84rem;
+  font-weight: 600;
+}
+
+.isamar-cart-remove {
+  background: transparent;
+  border: none;
+  color: #8C2D19;
+  font-size: 0.78rem;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.isamar-cart-footer {
+  padding: 16px 20px 22px;
+  border-top: 1px solid #EAE3E0;
+  background-color: #FAF8F7;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.isamar-cart-total-row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  font-size: 0.98rem;
+  margin-bottom: 4px;
+}
+
+.isamar-cart-total-row strong {
+  font-size: 1.15rem;
+  color: var(--isamar-vino);
+}
+
+.isamar-cart-wa-btn {
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+}
+
+.isamar-cart-clear-btn {
+  background: transparent;
+  border: none;
+  color: #5E3125;
+  font-size: 0.8rem;
+  cursor: pointer;
+  padding: 4px;
+}

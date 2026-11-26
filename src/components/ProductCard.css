@@ -1,0 +1,185 @@
+﻿.isamar-card {
+  background: var(--isamar-blanco);
+  border: 1px solid var(--isamar-borde);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  box-shadow: var(--shadow-card);
+  transition: border-color var(--transition-fast), transform var(--transition-fast);
+}
+
+.isamar-card:hover {
+  border-color: var(--isamar-vino);
+}
+
+.isamar-card__media {
+  position: relative;
+  aspect-ratio: 4 / 5;
+  background-color: var(--isamar-crema);
+  overflow: hidden;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px;
+}
+
+.isamar-card__img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.isamar-card__badge {
+  position: absolute;
+  top: 12px;
+  left: 12px;
+  font-size: 0.72rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  padding: 5px 10px;
+  border-radius: 999px;
+  background: rgba(255, 255, 255, 0.92);
+  color: var(--isamar-vino);
+  border: 1px solid rgba(70, 8, 9, 0.15);
+}
+
+.isamar-card__body {
+  padding: 18px;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  flex: 1;
+}
+
+.isamar-card__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 8px;
+}
+
+.isamar-card__categoria {
+  font-size: 0.78rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--isamar-cafe);
+  font-weight: 600;
+}
+
+.isamar-card__precio {
+  font-size: 1rem;
+  color: var(--isamar-negro);
+  font-weight: 700;
+}
+
+.isamar-card__titulo {
+  font-family: var(--font-display);
+  font-size: 1.25rem;
+  line-height: 1.25;
+  color: var(--isamar-vino);
+  font-weight: 600;
+}
+
+.isamar-card__swatches-block {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  margin-top: 2px;
+}
+
+.isamar-card__color-label {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  color: var(--isamar-texto-suave);
+}
+
+.isamar-card__color-label strong {
+  color: var(--isamar-negro);
+}
+
+.isamar-card__swatches {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.isamar-swatch {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  border: 1.5px solid rgba(0, 0, 0, 0.16);
+  background: transparent;
+  padding: 2px;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  transition: transform var(--transition-fast), border-color var(--transition-fast);
+}
+
+.isamar-swatch:hover {
+  transform: scale(1.08);
+}
+
+.isamar-swatch.is-active {
+  border-color: var(--isamar-vino);
+  border-width: 2px;
+  transform: scale(1.1);
+}
+
+.isamar-swatch__dot {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+  background-color: var(--swatch-color);
+  display: block;
+}
+
+.isamar-card__actions {
+  margin-top: auto;
+  padding-top: 8px;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  gap: 8px;
+}
+
+.isamar-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 10px 14px;
+  border-radius: var(--radius-sm);
+  font-size: 0.88rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color var(--transition-fast), color var(--transition-fast),
+    border-color var(--transition-fast);
+}
+
+.isamar-btn--primary {
+  background-color: var(--isamar-vino);
+  color: var(--isamar-blanco);
+  border: 1px solid var(--isamar-vino);
+}
+
+.isamar-btn--primary:hover {
+  background-color: var(--isamar-rojo);
+  border-color: var(--isamar-rojo);
+}
+
+.isamar-btn--ghost {
+  background-color: transparent;
+  color: var(--isamar-negro);
+  border: 1px solid var(--isamar-borde);
+}
+
+.isamar-btn--ghost:hover {
+  border-color: var(--isamar-vino);
+  color: var(--isamar-vino);
+}
