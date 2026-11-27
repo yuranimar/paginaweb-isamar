@@ -1,4 +1,5 @@
-﻿import { useEffect, useState } from "react";
+﻿import { resolveAssetUrl } from "../utils/assetUrl";
+import { useEffect, useState } from "react";
 import { formatCOP, buildWhatsAppOrderUrl } from "../utils/whatsapp";
 import { CrochetBagIcon } from "./CrochetCartDrawer";
 import "./ProductDetailModal.css";
@@ -65,7 +66,7 @@ export default function ProductDetailModal({
         <div className="isamar-modal__grid">
           <div className="isamar-modal__media">
             <img
-              src={varianteActiva.archivo}
+              src={resolveAssetUrl(varianteActiva.archivo)}
               alt={`${producto.nombre} en color ${varianteActiva.color}`}
               className="isamar-modal__img"
             />
@@ -160,5 +161,6 @@ export default function ProductDetailModal({
     </div>
   );
 }
+
 
 

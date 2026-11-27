@@ -1,7 +1,9 @@
-﻿import { useEffect, useRef, useState } from "react";
+﻿import { resolveAssetUrl } from "../utils/assetUrl";
+import { useEffect, useRef, useState } from "react";
 import gsap from "gsap";
 import { formatCOP, buildWhatsAppOrderUrl } from "../utils/whatsapp";
 import { CrochetBagIcon } from "./CrochetCartDrawer";
+import { CategoryBadgeIcon } from "./CategoryIcons";
 import "./ProductCard.css";
 
 export default function ProductCard({
@@ -166,7 +168,7 @@ export default function ProductCard({
       >
         <img
           ref={imgRef}
-          src={imagenMostrada}
+          src={resolveAssetUrl(imagenMostrada)}
           alt={
             hoverActivo && fotoSecundaria
               ? `${producto.nombre} en color ${varianteActiva.color} - vista alternativa`
@@ -183,7 +185,7 @@ export default function ProductCard({
 
       <div className="isamar-card__body">
         <div className="isamar-card__top">
-          <span className="isamar-card__categoria">{producto.categoria}</span>
+          <span className="isamar-card__categoria" style={{ display: "inline-flex", alignItems: "center", gap: "5px" }}><CategoryBadgeIcon categoria={producto.categoria} size={13} /><span>{producto.categoria}</span></span>
           <button
             type="button"
             onClick={() => onSelectProduct && onSelectProduct(producto, varianteActiva)}
@@ -259,6 +261,8 @@ export default function ProductCard({
     </article>
   );
 }
+
+
 
 
 

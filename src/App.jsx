@@ -3,6 +3,7 @@ import catalogoData from "./data/catalogoInicial.json";
 import ProductCard from "./components/ProductCard";
 import ProductDetailModal from "./components/ProductDetailModal";
 import CrochetCartDrawer, { CrochetBagIcon } from "./components/CrochetCartDrawer";
+import { BagCategoryIcon, PouchCategoryIcon } from "./components/CategoryIcons";
 import "./sections/Header.css";
 import "./sections/HeroLookbook.css";
 
@@ -129,9 +130,9 @@ export default function App() {
     }
   };
 
-  const fotoHero = `${import.meta.env.BASE_URL}assets/galeria/06-cosmetiquera/hero.jpeg`;
-  const fotoRespaldo = `${import.meta.env.BASE_URL}assets/galeria/06-cosmetiquera/bolso_tejido_elegancia_portada.jpeg`;
-  const fotoDetalle = `${import.meta.env.BASE_URL}assets/galeria/06-cosmetiquera/bolso_tejido_elegancia_hover.jpeg`;
+  const fotoHero = `${import.meta.env.BASE_URL}assets/galeria/bolso_tejido_elegancia/hero.jpeg`;
+  const fotoRespaldo = `${import.meta.env.BASE_URL}assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_portada.jpeg`;
+  const fotoDetalle = `${import.meta.env.BASE_URL}assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_hover.jpeg`;
 
   return (
     <div id="inicio" style={{ backgroundColor: "#FFFFFF", color: "#000000" }}>
@@ -139,7 +140,7 @@ export default function App() {
         <nav className="isamar-nav" aria-label="Navegación principal">
           <a href="#inicio" className="isamar-brand">
             <img
-              src=`${import.meta.env.BASE_URL}assets/galeria/01_Logos/logo_isamar_principal.jpeg`
+              src={`${import.meta.env.BASE_URL}assets/galeria/01_Logos/logo_isamar_principal.jpeg`}
               alt={catalogoData.marca}
               className="isamar-brand__logo"
               onError={(e) => {
@@ -336,7 +337,11 @@ export default function App() {
                   color: activa ? "#FFFFFF" : "#1A1A1A",
                 }}
               >
-                {cat}
+                <span style={{ display: "inline-flex", alignItems: "center", gap: "7px" }}>
+                  {cat === "Bolsos" && <BagCategoryIcon size={16} />}
+                  {cat === "Cosmetiqueras" && <PouchCategoryIcon size={16} />}
+                  <span>{cat}</span>
+                </span>
               </button>
             );
           })}
@@ -579,6 +584,9 @@ export default function App() {
     </div>
   );
 }
+
+
+
 
 
 

@@ -1,4 +1,5 @@
-﻿import { useEffect } from "react";
+﻿import { resolveAssetUrl } from "../utils/assetUrl";
+import { useEffect } from "react";
 import { formatCOP, buildWhatsAppCartUrl } from "../utils/whatsapp";
 import "./CrochetCartDrawer.css";
 
@@ -117,7 +118,7 @@ export default function CrochetCartDrawer({
               {items.map((item) => (
                 <li key={item.clave} className="isamar-cart-item">
                   <img
-                    src={item.foto}
+                    src={resolveAssetUrl(item.foto)}
                     alt={`${item.nombre} en color ${item.color}`}
                     className="isamar-cart-item__img"
                   />
@@ -197,4 +198,5 @@ export default function CrochetCartDrawer({
     </div>
   );
 }
+
 
