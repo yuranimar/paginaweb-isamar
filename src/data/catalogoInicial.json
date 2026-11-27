@@ -1,142 +1,161 @@
-﻿[
-    {
-        "fotoOriginal":  "/assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_portada.jpeg",
-        "id":  "bolso-tejido-elegancia",
-        "nombre":  "Bolso Tejido Elegancia",
-        "galeria":  [
-                        "/assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_portada.jpeg",
-                        "/assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_hover.jpeg",
-                        "/assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_borgona.jpeg",
-                        "/assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_fuccia.jpeg",
-                        "/assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_morado.jpeg",
-                        "/assets/galeria/bolso_tejido_elegancia/detalle-1.jpeg",
-                        "/assets/galeria/bolso_tejido_elegancia/detalle-2.jpeg"
-                    ],
-        "variantesColor":  [
-                               {
-                                   "color":  "Borgoña",
-                                   "hex":  "#6D1B2B",
-                                   "archivo":  "/assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_borgona.jpeg",
-                                   "fotoSecundaria":  "/assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_hover.jpeg"
-                               },
-                               {
-                                   "color":  "Fucsia",
-                                   "hex":  "#D9266F",
-                                   "archivo":  "/assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_fuccia.jpeg",
-                                   "fotoSecundaria":  "/assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_hover.jpeg"
-                               },
-                               {
-                                   "color":  "Morado",
-                                   "hex":  "#5A2D82",
-                                   "archivo":  "/assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_morado.jpeg",
-                                   "fotoSecundaria":  "/assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_hover.jpeg"
-                               }
-                           ],
-        "destacado":  true,
-        "categoria":  "Bolsos",
-        "precio":  85000,
-        "descripcion":  "Tejido artesanal a crochet con acabado estructurado y tonos vibrantes."
-    },
-    {
-        "fotoOriginal":  "/assets/galeria/bolso_nudo_esencial/portada.jpeg",
-        "id":  "bolso-nudo-esencial",
-        "nombre":  "Bolso Nudo Esencial",
-        "galeria":  [
-                        "/assets/galeria/bolso_nudo_esencial/portada.jpeg",
-                        "/assets/galeria/bolso_nudo_esencial/hover.jpeg"
-                    ],
-        "variantesColor":  [
-                               {
-                                   "color":  "Portada",
-                                   "hex":  "#8B4513",
-                                   "archivo":  "/assets/galeria/bolso_nudo_esencial/portada.jpeg",
-                                   "fotoSecundaria":  "/assets/galeria/bolso_nudo_esencial/hover.jpeg"
-                               },
-                               {
-                                   "color":  "Vista alterna",
-                                   "hex":  "#3B2314",
-                                   "archivo":  "/assets/galeria/bolso_nudo_esencial/hover.jpeg",
-                                   "fotoSecundaria":  "/assets/galeria/bolso_nudo_esencial/portada.jpeg"
-                               }
-                           ],
-        "destacado":  true,
-        "categoria":  "Bolsos",
-        "precio":  78000,
-        "descripcion":  "Diseño versátil de uso diario con detalle artesanal y textura suave."
-    },
-    {
-        "fotoOriginal":  "/assets/galeria/bolso_cadena_chic/portada.jpeg",
-        "id":  "bolso-cadena-chic",
-        "nombre":  "Bolso Cadena Chic",
-        "galeria":  [
-                        "/assets/galeria/bolso_cadena_chic/portada.jpeg"
-                    ],
-        "variantesColor":  [
-                               {
-                                   "color":  "Original",
-                                   "hex":  "#4A1525",
-                                   "archivo":  "/assets/galeria/bolso_cadena_chic/portada.jpeg",
-                                   "fotoSecundaria":  "/assets/galeria/bolso_cadena_chic/portada.jpeg"
-                               }
-                           ],
-        "destacado":  false,
-        "categoria":  "Bolsos",
-        "precio":  82000,
-        "descripcion":  "Estilo compacto y elegante para salidas especiales o planes de noche."
-    },
-    {
-        "fotoOriginal":  "/assets/galeria/bolso_minimal/portada.jpeg",
-        "id":  "bolso-minimal",
-        "nombre":  "Bolso Minimal",
-        "galeria":  [
-                        "/assets/galeria/bolso_minimal/portada.jpeg"
-                    ],
-        "variantesColor":  [
-                               {
-                                   "color":  "Original",
-                                   "hex":  "#2B211E",
-                                   "archivo":  "/assets/galeria/bolso_minimal/portada.jpeg",
-                                   "fotoSecundaria":  "/assets/galeria/bolso_minimal/portada.jpeg"
-                               }
-                           ],
-        "destacado":  false,
-        "categoria":  "Bolsos",
-        "precio":  74000,
-        "descripcion":  "Líneas limpias y tejido ligero pensado para combinar con todo."
-    },
-    {
-        "fotoOriginal":  "/assets/galeria/cosmetiquera_dream/portada.jpeg",
-        "id":  "cosmetiquera-dream",
-        "nombre":  "Cosmetiquera Dream",
-        "galeria":  [
-                        "/assets/galeria/cosmetiquera_dream/portada.jpeg",
-                        "/assets/galeria/cosmetiquera_dream/hover.jpeg",
-                        "/assets/galeria/cosmetiquera_dream/color-2.jpeg",
-                        "/assets/galeria/cosmetiquera_dream/color-3.jpeg"
-                    ],
-        "variantesColor":  [
-                               {
-                                   "color":  "Edición 1",
-                                   "hex":  "#9E2A5E",
-                                   "archivo":  "/assets/galeria/cosmetiquera_dream/portada.jpeg",
-                                   "fotoSecundaria":  "/assets/galeria/cosmetiquera_dream/hover.jpeg"
-                               },
-                               {
-                                   "color":  "Edición 2",
-                                   "hex":  "#6D1B2B",
-                                   "archivo":  "/assets/galeria/cosmetiquera_dream/color-2.jpeg",
-                                   "fotoSecundaria":  "/assets/galeria/cosmetiquera_dream/hover.jpeg"
-                               },
-                               {
-                                   "color":  "Edición 3",
-                                   "hex":  "#3F1D5E",
-                                   "archivo":  "/assets/galeria/cosmetiquera_dream/color-3.jpeg",
-                                   "fotoSecundaria":  "/assets/galeria/cosmetiquera_dream/hover.jpeg"
-                               }
-                           ],
-        "destacado":  true,
-        "categoria":  "Cosmetiqueras",
-        "precio":  45000,
-        "descripcion":  "Cosmetiquera tejida a mano, práctica y compacta para llevar esenciales."
-    }
-]
+﻿{
+    "marca":  "ISAMAR",
+    "productos":  [
+                      {
+                          "fotoOriginal":  "/assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_portada.jpeg",
+                          "id":  "bolso-tejido-elegancia",
+                          "nombre":  "Bolso Tejido Elegancia",
+                          "galeria":  [
+                                          "/assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_portada.jpeg",
+                                          "/assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_hover.jpeg",
+                                          "/assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_borgona.jpeg",
+                                          "/assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_fuccia.jpeg",
+                                          "/assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_morado.jpeg",
+                                          "/assets/galeria/bolso_tejido_elegancia/detalle-1.jpeg",
+                                          "/assets/galeria/bolso_tejido_elegancia/detalle-2.jpeg"
+                                      ],
+                          "variantesColor":  [
+                                                 {
+                                                     "color":  "Borgoña",
+                                                     "hex":  "#6D1B2B",
+                                                     "archivo":  "/assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_borgona.jpeg",
+                                                     "fotoSecundaria":  "/assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_hover.jpeg"
+                                                 },
+                                                 {
+                                                     "color":  "Fucsia",
+                                                     "hex":  "#D9266F",
+                                                     "archivo":  "/assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_fuccia.jpeg",
+                                                     "fotoSecundaria":  "/assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_hover.jpeg"
+                                                 },
+                                                 {
+                                                     "color":  "Morado",
+                                                     "hex":  "#5A2D82",
+                                                     "archivo":  "/assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_morado.jpeg",
+                                                     "fotoSecundaria":  "/assets/galeria/bolso_tejido_elegancia/bolso_tejido_elegancia_hover.jpeg"
+                                                 }
+                                             ],
+                          "destacado":  true,
+                          "categoria":  "Bolsos",
+                          "precioCOP":  85000,
+                          "descripcion":  "Tejido artesanal a crochet con acabado estructurado y tonos vibrantes."
+                      },
+                      {
+                          "fotoOriginal":  "/assets/galeria/bolso_nudo_esencial/portada.jpeg",
+                          "id":  "bolso-nudo-esencial",
+                          "nombre":  "Bolso Nudo Esencial",
+                          "galeria":  [
+                                          "/assets/galeria/bolso_nudo_esencial/portada.jpeg",
+                                          "/assets/galeria/bolso_nudo_esencial/hover.jpeg"
+                                      ],
+                          "variantesColor":  [
+                                                 {
+                                                     "color":  "Portada",
+                                                     "hex":  "#8B4513",
+                                                     "archivo":  "/assets/galeria/bolso_nudo_esencial/portada.jpeg",
+                                                     "fotoSecundaria":  "/assets/galeria/bolso_nudo_esencial/hover.jpeg"
+                                                 },
+                                                 {
+                                                     "color":  "Vista alterna",
+                                                     "hex":  "#3B2314",
+                                                     "archivo":  "/assets/galeria/bolso_nudo_esencial/hover.jpeg",
+                                                     "fotoSecundaria":  "/assets/galeria/bolso_nudo_esencial/portada.jpeg"
+                                                 }
+                                             ],
+                          "destacado":  true,
+                          "categoria":  "Bolsos",
+                          "precioCOP":  78000,
+                          "descripcion":  "Diseño versátil de uso diario con detalle artesanal y textura suave."
+                      },
+                      {
+                          "fotoOriginal":  "/assets/galeria/bolso_cadena_chic/portada.jpeg",
+                          "id":  "bolso-cadena-chic",
+                          "nombre":  "Bolso Cadena Chic",
+                          "galeria":  [
+                                          "/assets/galeria/bolso_cadena_chic/portada.jpeg",
+                                          "/assets/galeria/bolso_cadena_chic/hover.jpeg",
+                                          "/assets/galeria/bolso_cadena_chic/negro.jpeg",
+                                          "/assets/galeria/bolso_cadena_chic/marfil.jpeg"
+                                      ],
+                          "variantesColor":  [
+                                                 {
+                                                     "color":  "Portada",
+                                                     "hex":  "#6D1B2B",
+                                                     "archivo":  "/assets/galeria/bolso_cadena_chic/portada.jpeg",
+                                                     "fotoSecundaria":  "/assets/galeria/bolso_cadena_chic/hover.jpeg"
+                                                 },
+                                                 {
+                                                     "color":  "Negro",
+                                                     "hex":  "#1C1C1C",
+                                                     "archivo":  "/assets/galeria/bolso_cadena_chic/negro.jpeg",
+                                                     "fotoSecundaria":  "/assets/galeria/bolso_cadena_chic/hover.jpeg"
+                                                 },
+                                                 {
+                                                     "color":  "Marfil",
+                                                     "hex":  "#EFE6D8",
+                                                     "archivo":  "/assets/galeria/bolso_cadena_chic/marfil.jpeg",
+                                                     "fotoSecundaria":  "/assets/galeria/bolso_cadena_chic/hover.jpeg"
+                                                 }
+                                             ],
+                          "destacado":  false,
+                          "categoria":  "Bolsos",
+                          "precioCOP":  82000,
+                          "descripcion":  "Estilo compacto y elegante para salidas especiales o planes de noche."
+                      },
+                      {
+                          "fotoOriginal":  "/assets/galeria/bolso_minimal/portada.jpeg",
+                          "id":  "bolso-minimal",
+                          "nombre":  "Bolso Minimal",
+                          "galeria":  [
+                                          "/assets/galeria/bolso_minimal/portada.jpeg"
+                                      ],
+                          "variantesColor":  [
+                                                 {
+                                                     "color":  "Original",
+                                                     "hex":  "#2B211E",
+                                                     "archivo":  "/assets/galeria/bolso_minimal/portada.jpeg",
+                                                     "fotoSecundaria":  "/assets/galeria/bolso_minimal/portada.jpeg"
+                                                 }
+                                             ],
+                          "destacado":  false,
+                          "categoria":  "Bolsos",
+                          "precioCOP":  74000,
+                          "descripcion":  "Líneas limpias y tejido ligero pensado para combinar con todo."
+                      },
+                      {
+                          "fotoOriginal":  "/assets/galeria/cosmetiquera_dream/portada.jpeg",
+                          "id":  "cosmetiquera-dream",
+                          "nombre":  "Cosmetiquera Dream",
+                          "galeria":  [
+                                          "/assets/galeria/cosmetiquera_dream/portada.jpeg",
+                                          "/assets/galeria/cosmetiquera_dream/hover.jpeg",
+                                          "/assets/galeria/cosmetiquera_dream/color-2.jpeg",
+                                          "/assets/galeria/cosmetiquera_dream/color-3.jpeg"
+                                      ],
+                          "variantesColor":  [
+                                                 {
+                                                     "color":  "Edición 1",
+                                                     "hex":  "#9E2A5E",
+                                                     "archivo":  "/assets/galeria/cosmetiquera_dream/portada.jpeg",
+                                                     "fotoSecundaria":  "/assets/galeria/cosmetiquera_dream/hover.jpeg"
+                                                 },
+                                                 {
+                                                     "color":  "Edición 2",
+                                                     "hex":  "#6D1B2B",
+                                                     "archivo":  "/assets/galeria/cosmetiquera_dream/color-2.jpeg",
+                                                     "fotoSecundaria":  "/assets/galeria/cosmetiquera_dream/hover.jpeg"
+                                                 },
+                                                 {
+                                                     "color":  "Edición 3",
+                                                     "hex":  "#3F1D5E",
+                                                     "archivo":  "/assets/galeria/cosmetiquera_dream/color-3.jpeg",
+                                                     "fotoSecundaria":  "/assets/galeria/cosmetiquera_dream/hover.jpeg"
+                                                 }
+                                             ],
+                          "destacado":  true,
+                          "categoria":  "Cosmetiqueras",
+                          "precioCOP":  45000,
+                          "descripcion":  "Cosmetiquera tejida a mano, práctica y compacta para llevar esenciales."
+                      }
+                  ],
+    "whatsappNumero":  "573000000000"
+}

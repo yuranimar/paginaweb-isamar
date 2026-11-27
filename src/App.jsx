@@ -100,7 +100,8 @@ export default function App() {
 
   const termino = busqueda.trim().toLowerCase();
 
-  const productosFiltrados = catalogoData.productos.filter((p) => {
+  const listaProductos = Array.isArray(catalogoData?.productos) ? catalogoData.productos : [];
+  const productosFiltrados = listaProductos.filter((p) => {
     const coincideCategoria =
       categoriaActiva === "Todos"
         ? true
@@ -584,6 +585,7 @@ export default function App() {
     </div>
   );
 }
+
 
 
 
